@@ -4,10 +4,10 @@
   height: 100vh; /* will be changed later, just to make the animation look good */
 }
 @keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
-  40% {transform: translateY(-15px);} 
-  60% {transform: translateY(0px);} 
-} 
+  0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+  40% {transform: translateY(-15px);}
+  60% {transform: translateY(0px);}
+}
 .frame {
   width: 100%;
   min-height: 100vh;
@@ -40,12 +40,12 @@
   position: absolute;
   background-color: transparent;
   border: 0px;
-  -webkit-animation-name: bounce; 
-  animation-name: bounce; 
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
   -webkit-animation-duration: 3s;
-  animation-duration: 3s; 
-  -webkit-animation-fill-mode: both; 
-  animation-fill-mode: both; 
+  animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
   animation-iteration-count: infinite;
 }
 
@@ -80,7 +80,7 @@ button>svg{
   width: 100%;
   height: 100vh;
   display: none;
-  background-color: blue;
+  background-color: black;
   overflow: hidden;
 }
 
@@ -150,4 +150,13 @@ button>svg{
   width: 1200px;
   height: 600px;
   background-size: 100% 100%;
+}
+
+.frame-images{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* max-width: 800px;
+  margin: 10px;
+  padding: 30px; */
 }
