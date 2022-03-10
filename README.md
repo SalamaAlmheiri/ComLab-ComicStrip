@@ -3,7 +3,7 @@
 
 ### Documentation:
 
-## Project Name: Got your back
+## Project Name: Got Your Back
 
 ## Project Description:
 _what is the project, what is the overall concept and theme, and what kind of experience you were striving to create._\
